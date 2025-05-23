@@ -224,30 +224,6 @@ history = model.fit(
 
 
 ```python
-history = model.fit(
-    x_train, y_train,
-    epochs=5,
-    batch_size=128,
-    validation_data=(x_test, y_test),
-    verbose=2
-)
-
-```
-
-    Epoch 1/5
-    469/469 - 4s - 8ms/step - accuracy: 0.9607 - loss: 0.1294 - val_accuracy: 0.9849 - val_loss: 0.0488
-    Epoch 2/5
-    469/469 - 4s - 8ms/step - accuracy: 0.9643 - loss: 0.1191 - val_accuracy: 0.9855 - val_loss: 0.0436
-    Epoch 3/5
-    469/469 - 4s - 8ms/step - accuracy: 0.9654 - loss: 0.1135 - val_accuracy: 0.9855 - val_loss: 0.0417
-    Epoch 4/5
-    469/469 - 3s - 7ms/step - accuracy: 0.9673 - loss: 0.1073 - val_accuracy: 0.9858 - val_loss: 0.0430
-    Epoch 5/5
-    469/469 - 3s - 7ms/step - accuracy: 0.9692 - loss: 0.1021 - val_accuracy: 0.9856 - val_loss: 0.0406
-    
-
-
-```python
 test_loss, test_accuracy = model.evaluate(x_test, y_test, verbose=2)
 print(f"Final test accuracy : {test_accuracy:.4f}")
 
