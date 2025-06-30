@@ -62,13 +62,19 @@ About the histogram of biases (Tensorflow):
 
 ## 📁 Files included
 
-- `Training_MNIST.html` – Exported notebook as HTML  
-- `Training_MNIST.md` – Clean Markdown version of the Python code  
-- `confusion_matrix.jpg` – Static export of the confusion matrix  
-- `histogram_biases.jpg` – Screenshot from TensorBoard  
-- `Accuracy_and_loss` – Footage from the Learning curves 
-- `Numbers_to_identify_example` – Footage from dataset itself
-- `README.md` – This file
+```
+├── notebook/
+│ ├── Training_MNIST.html → Exported notebook
+│ └── Training_MNIST.md → Clean Markdown version of the Python code
+
+├── visuals/
+│ ├── confusion_matrix.jpg → Static export of the confusion matrix
+│ ├── histogram_biases.jpg → Screenshot from TensorBoard (bias histogram)
+│ ├── Accuracy_and_loss.jpg → Visualization of learning curves
+│ └── Numbers_to_identify_example.jpg → Example digits from the dataset
+
+└── README.md → This file
+```
 
 ---
 
